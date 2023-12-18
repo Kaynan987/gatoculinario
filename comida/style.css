@@ -1,0 +1,128 @@
+
+body {
+    background-color: #f8f8f8;
+    font-family: 'Material Symbols Outlined', sans-serif;
+  }
+
+  header {
+    background-color: #ff6f61;
+    padding: 15px;
+    text-align: center;
+  }
+
+  header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+
+  .logo img {
+    width: 150px;
+  }
+
+  .cab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .direita {
+    margin: 20px;
+  }
+
+  .bannr {
+    background-color: #ffcc80;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .corzinha h1 {
+    color: #ff6f61;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .pusca {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  #titulo {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .bolinhas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .bolinhast img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+  }
+
+  .bolinhast:hover img {
+    transform: scale(1.2);
+  }
+
+  .lista-livros {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+
+  .cartao {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+
+  .cartao:hover {
+    transform: scale(1.05);
+  }
+
+  .imagem img {
+  width: 100%;
+  max-width: 200000px; 
+  height: auto;
+  max-height: 1500px; 
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+  .nometext {
+    color: #333;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .btn-secondary2 {
+    background-color: #ff6f61;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
